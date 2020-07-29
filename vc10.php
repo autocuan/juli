@@ -6,7 +6,7 @@ $token = trim(fgets(STDIN));
 echo "\n".color("nevy","?] Mau Redeem Voucher?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
-        echo color("red","===========(REDEEM VOUCHER)===========");
+        
         echo "\n".color("nevy","!] Claim voc GOFOOD A");
         echo "\n".color("purple","!] Please wait");
         for($a=1;$a<=3;$a++){
